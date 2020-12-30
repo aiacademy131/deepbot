@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+matplotlib = "==3.2.1"
+pandas = "==1.0.4"
+gensim = "==3.8.3"
+konlpy = "==0.5.2"
+numpy = "==1.18.5"
+joblib = "==0.15.1"
+scikit-learn = "==0.23.1"
+pytorch-crf = "==0.7.2"
+requests = "==2.24.0"
+Flask = "==1.1.2"
+
+[requires]
+python_version = "3.6"
